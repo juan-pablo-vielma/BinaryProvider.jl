@@ -2,6 +2,7 @@ module BinaryProvider
 
 using Libdl
 
+include("Libdl.jl")
 # Utilities for controlling verbosity
 include("LoggingUtils.jl")
 # Include our subprocess running functionality
